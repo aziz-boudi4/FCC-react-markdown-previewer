@@ -79,6 +79,7 @@ const App = () => {
 const Editor = (props) => {
   return (
     <textarea
+      type="text"
         id="editor"
         style={{ width: "60%", marginBottom: "20px" }}
         rows="27"
